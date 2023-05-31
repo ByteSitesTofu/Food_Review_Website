@@ -1,0 +1,92 @@
+.darkMode {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 10px 0px 0px 10px;
+}
+
+.toggle {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 60px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.toggle i {
+  width: 50%;
+  line-height: 30px;
+  text-align: center;
+  font-size: 15px;
+  z-index: 1;
+}
+
+.toggle .ball {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  margin: 1.5px;
+  border-radius: 50%;
+}
+
+input {
+  display: none;
+}
+
+/* light Mode */
+.light {
+  background: #fafafa;
+}
+
+.light .toggle {
+  background: linear-gradient(145deg, #e1e1e1, #fff);
+  box-shadow: 3px 3px 4px #e6e6e6,
+    -3px -3px 4px #ffffff;
+}
+
+.light .toggle .bx-sun {
+  color: orange;
+}
+
+.light .toggle .bx-moon {
+  color: #151d2a;
+}
+
+.light .toggle .ball {
+  background: #151d2a;
+}
+
+/* Dark Mode */
+.dark {
+  background: #0e131c;
+}
+
+.dark * {
+  color: #fafafa;
+}
+
+.dark .toggle {
+  background: #151d2a;
+  box-shadow: 3px 3px 3px #0e131b,
+    -3px -3px 3px #1c2739;
+}
+
+.dark .toggle .bx-moon {
+  color: orange;
+}
+
+.dark .toggle .bx-sun {
+  color: #fafafa;
+}
+
+.dark .toggle .ball {
+  background: #fafafa;
+  transform: translateX(30px);
+}
+
+.dark .btn :hover,
+.dark .social :hover {
+  background-color: blue;
+}

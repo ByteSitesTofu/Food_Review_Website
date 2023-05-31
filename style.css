@@ -1,0 +1,81 @@
+* {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  aspect-ratio: 1;
+}
+
+body {
+  display: grid;
+  grid-template-areas: 'nav main footer';
+  height: 100vh;
+  grid-template-columns: 2fr 8fr 3fr;
+  transition: .2s;
+}
+
+nav {
+  grid-area: nav;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 15%;
+  border-right: 1px solid rgb(193, 193, 193);
+  box-shadow: 1px gray;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid rgb(193, 193, 193);
+  padding-left: 10px;
+}
+
+/* navigation */
+.logo_container {
+  width: 100px;
+  aspect-ratio: 1;
+  align-self: center;
+  margin-bottom: 50px;
+}
+
+
+.navigation_container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.btn a {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0px 10px 10px;
+  text-decoration: none;
+  color: black;
+  height: 100%;
+  align-items: center;
+  font-weight: 700;
+}
+
+.btn i {
+  padding: 0px 10px 0px 0px;
+}
+
+
+.btn :hover {
+  background-color: lightblue;
+  transition: .3s;
+}

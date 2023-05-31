@@ -1,0 +1,64 @@
+.social_header {
+  font-weight: 400;
+  font-size: 20px;
+  border-bottom: 1px solid gainsboro;
+  padding: 5px 0 5px 0;
+}
+
+.social_container {
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0 5px 0;
+}
+
+.social span {
+  padding-left: 10px;
+}
+
+.social a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.social img {
+  height: 20px;
+  width: auto;
+}
+
+/* Social Hover */
+.social :hover {
+  background-color: lightblue;
+  transition: .3s;
+}
+
+.copyright_container {
+  border-top: 1px solid gainsboro;
+
+}
+
+.copyright {
+  font-weight: 400;
+  border-top: 1px solid gainsboro;
+  padding-top: 10px;
+}
+
+.copyright span {
+  font-weight: 500;
+}
+
+.copyright_link {
+  text-decoration: none;
+  color: black;
+}
