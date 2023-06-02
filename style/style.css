@@ -13,9 +13,21 @@ img {
 body {
   display: grid;
   grid-template-areas: 'nav main footer';
-  height: 100vh;
   grid-template-columns: 2fr 8fr 3fr;
   transition: .2s;
+  height: 200vh;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6649b8;
 }
 
 nav {
@@ -27,22 +39,13 @@ nav {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 15%;
+  width: 15.4%;
   border-right: 1px solid rgb(193, 193, 193);
   box-shadow: 1px gray;
+  background-color: white;
 }
 
-main {
-  grid-area: main;
-}
 
-footer {
-  grid-area: footer;
-  display: flex;
-  flex-direction: column;
-  border-left: 1px solid rgb(193, 193, 193);
-  padding-left: 10px;
-}
 
 /* navigation */
 .logo_container {
@@ -57,7 +60,6 @@ footer {
   display: flex;
   flex-direction: column;
 }
-
 
 .btn a {
   display: flex;
@@ -78,4 +80,5 @@ footer {
 .btn :hover {
   background-color: lightblue;
   transition: .3s;
+  border-radius: 0px 10px 10px 0;
 }

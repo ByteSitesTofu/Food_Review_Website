@@ -1,6 +1,8 @@
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body {
-    grid-template-areas: 'nav''main''footer';
+    grid-template-areas: 'nav'
+      'main'
+      'footer';
     height: 100vh;
     grid-template-columns: auto;
   }
@@ -13,6 +15,10 @@
     height: 60px;
     border-bottom: 2px solid rgb(193, 193, 193);
     border-right: 0;
+  }
+
+  main {
+    margin-top: 60px;
   }
 
   footer {
@@ -28,7 +34,8 @@
 
   /* navigation */
   .logo_container {
-    width: 50px;
+    min-width: 50px;
+    max-width: 50px;
     padding: 0px 0px 0px 0px;
     align-self: auto;
   }
@@ -45,6 +52,10 @@
     align-items: center;
     padding: 10px;
     width: auto;
+  }
+
+  .btn :hover {
+    border-radius: 3px;
   }
 
   /* darkMode */
@@ -73,6 +84,9 @@
     padding: 0px 10px 0px 10px;
   }
 
+  .social :hover {
+    border-radius: 3px;
+  }
 
   .copyright {
     padding-left: 5px;
@@ -80,4 +94,31 @@
 
 }
 
-@media only screen and (max-width: 500px) {}
+@media only screen and (max-width: 600px) {
+  .btn a {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 5px 0 5px;
+  }
+
+  .btn span {
+    font-size: 10px;
+  }
+
+  .btn i {
+    padding: 0px;
+    font-size: 15px;
+  }
+
+  footer {
+    padding-bottom: 10px;
+  }
+
+  .social_container {
+    flex-direction: column;
+  }
+
+  .social_container a {
+    height: 30px;
+  }
+}

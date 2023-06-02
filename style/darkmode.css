@@ -60,11 +60,19 @@ input {
 
 /* Dark Mode */
 .dark {
-  background: #0e131c;
+  background: #121212;
+}
+
+.dark nav {
+  background-color: #121212;
+}
+
+.dark footer {
+  background-color: #121212;
 }
 
 .dark * {
-  color: #fafafa;
+  color: #fafafae1;
 }
 
 .dark .toggle {
@@ -88,5 +96,10 @@ input {
 
 .dark .btn :hover,
 .dark .social :hover {
-  background-color: blue;
+  background-color: rgba(32, 75, 132, 0.5);
+}
+
+.dark .btn a :hover,
+.dark .social a :hover {
+  background-color: transparent;
 }

@@ -1,21 +1,29 @@
+footer {
+  grid-area: footer;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid rgb(193, 193, 193);
+  padding-bottom: 20px;
+  background-color: white;
+}
+
 .social_header {
   font-weight: 400;
   font-size: 20px;
   border-bottom: 1px solid gainsboro;
-  padding: 5px 0 5px 0;
+  padding: 5px 0 5px 10px;
 }
 
 .social_container {
   font-weight: 500;
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  padding: 10px 0 10px 15px;
 }
 
 .social {
   display: flex;
   flex-direction: column;
-  padding: 5px 0 5px 0;
 }
 
 .social span {
@@ -29,7 +37,7 @@
   text-decoration: none;
   color: black;
   height: 40px;
-  padding-left: 10px;
+  padding-left: 5px;
 }
 
 .social img {
@@ -41,6 +49,7 @@
 .social :hover {
   background-color: lightblue;
   transition: .3s;
+  border-radius: 10px 0 0 10px;
 }
 
 .copyright_container {
@@ -51,7 +60,7 @@
 .copyright {
   font-weight: 400;
   border-top: 1px solid gainsboro;
-  padding-top: 10px;
+  padding: 10px 0 0 10px;
 }
 
 .copyright span {

@@ -1,0 +1,35 @@
+main {
+  grid-area: main;
+  min-height: 100vh;
+  width: auto;
+  padding: 10px 10px 10px 10px;
+  gap: 10px;
+  display: grid;
+  grid-template-areas: 'header_container'
+    'image_container'
+    'content_container';
+}
+
+.header_container {
+  grid-area: header_container;
+}
+
+.header_title {
+  text-align: center;
+  padding: 20px;
+
+  font-weight: 700;
+}
+
+.description {
+  padding: 10px;
+  font-weight: 300;
+}
+
+.image_container {
+  grid-area: image_container;
+}
+
+.content_container {
+  grid-area: content_container;
+}
