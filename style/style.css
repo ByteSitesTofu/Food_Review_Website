@@ -15,7 +15,7 @@ body {
   grid-template-areas: 'nav main footer';
   grid-template-columns: 2fr 8fr 3fr;
   transition: .2s;
-  height: 200vh;
+  margin-bottom: 50px;
 }
 
 ::-webkit-scrollbar {
@@ -36,13 +36,13 @@ nav {
   justify-content: flex-start;
   flex-direction: column;
   position: fixed;
-  top: 0;
   left: 0;
-  bottom: 0;
+  height: 100%;
   width: 15.4%;
   border-right: 1px solid rgb(193, 193, 193);
   box-shadow: 1px gray;
-  background-color: white;
+  background: white;
+  z-index: 999;
 }
 
 
