@@ -71,6 +71,10 @@ input {
   background-color: #121212;
 }
 
+.dark .image_item p {
+  color: #fafafae1;
+}
+
 .dark * {
   color: #fafafae1;
 }

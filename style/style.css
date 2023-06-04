@@ -15,7 +15,6 @@ body {
   grid-template-areas: 'nav main footer';
   grid-template-columns: 2fr 8fr 3fr;
   transition: .2s;
-  margin-bottom: 50px;
 }
 
 ::-webkit-scrollbar {
@@ -36,8 +35,8 @@ nav {
   justify-content: flex-start;
   flex-direction: column;
   position: fixed;
-  left: 0;
   height: 100%;
+  left: 0;
   width: 15.4%;
   border-right: 1px solid rgb(193, 193, 193);
   box-shadow: 1px gray;
@@ -70,15 +69,20 @@ nav {
   height: 100%;
   align-items: center;
   font-weight: 700;
+  transition: .3s;
 }
+
 
 .btn i {
   padding: 0px 10px 0px 0px;
 }
 
+.btn span:hover,
+.btn i:hover {
+  background-color: transparent;
+}
 
 .btn :hover {
   background-color: lightblue;
-  transition: .3s;
   border-radius: 0px 10px 10px 0;
 }

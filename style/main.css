@@ -9,7 +9,6 @@ main {
 .header_container {
   background: rgba(175, 210, 233, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  -webkit-backdrop-filter: blur(2px);
   border-radius: 0 0 10px 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   margin-bottom: 50px;
@@ -26,7 +25,7 @@ main {
   padding: 20px;
   font-weight: 400;
   text-align: justify;
-  text-indent: 50px;
+  text-indent: 20px;
   margin-bottom: 50px;
 }
 
@@ -50,7 +49,7 @@ main {
   justify-content: space-around;
   gap: 10px;
   padding: 0 10px 0 10px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .image_item {
@@ -70,8 +69,6 @@ main {
 .image_item a {
   text-decoration: none;
 }
-
-
 
 .image_item img {
   object-fit: cover;
