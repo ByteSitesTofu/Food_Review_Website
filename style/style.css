@@ -3,6 +3,7 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  font-size: 20px;
 }
 
 img {
@@ -18,7 +19,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 15px;
 }
 
 ::-webkit-scrollbar-track {
@@ -85,4 +86,8 @@ nav {
 .btn :hover {
   background-color: lightblue;
   border-radius: 0px 10px 10px 0;
+}
+
+.fa-solid, .social_container .bx {
+  font-size: 20px;
 }

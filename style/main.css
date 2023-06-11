@@ -1,6 +1,7 @@
 main {
   grid-area: main;
   min-height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -42,7 +43,8 @@ main {
   font-size: 20px;
 }
 
-.image_card {
+/* reserved code if something wrong happen */
+/* .image_card {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -50,6 +52,13 @@ main {
   gap: 10px;
   padding: 0 10px 0 10px;
   margin-bottom: 30px;
+} */
+
+.image_card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  justify-items: center;
+  gap: 10px;
 }
 
 .image_item {
@@ -83,5 +92,3 @@ main {
   font-weight: 500;
   margin-top: 5px;
 }
-
-.content_container {}

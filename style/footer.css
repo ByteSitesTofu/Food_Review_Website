@@ -1,10 +1,20 @@
-footer {
+/* footer {
   grid-area: footer;
   display: flex;
   flex-direction: column;
   border-left: 1px solid rgb(193, 193, 193);
   background-color: white;
   height: 100%;
+} */
+
+footer {
+  grid-area: footer;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-left: 1px solid rgb(193, 193, 193);
+  box-shadow: 1px gray;
+  background: white;
 }
 
 .social_header {
@@ -40,16 +50,15 @@ footer {
   padding-left: 5px;
 }
 
-.social img {
-  height: 20px;
-  width: auto;
-}
-
 /* Social Hover */
 .social :hover {
   background-color: lightblue;
   transition: .3s;
   border-radius: 10px 0 0 10px;
+}
+
+.bx {
+  font-size: 20px;
 }
 
 .copyright_container {
