@@ -12,15 +12,6 @@ main {
   font-size: 30px;
 }
 
-/* reserved code if something wrong happen */
-/* .content_image {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 10px;
-} */
-
 .content_image {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -29,9 +20,8 @@ main {
 }
 
 .content_image img {
-  height: 100%;
-  aspect-ratio: 1;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 article {
