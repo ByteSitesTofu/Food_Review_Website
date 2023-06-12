@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 900px) {
   body {
     grid-template-areas: 'nav'
       'main''footer';
@@ -98,7 +98,7 @@
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .btn a {
     flex-direction: column;
     justify-content: center;
