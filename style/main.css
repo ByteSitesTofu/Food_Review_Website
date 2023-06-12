@@ -43,17 +43,6 @@ main {
   font-size: 20px;
 }
 
-/* reserved code if something wrong happen */
-/* .image_card {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 10px;
-  padding: 0 10px 0 10px;
-  margin-bottom: 30px;
-} */
-
 .image_card {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -68,15 +57,12 @@ main {
   width: 150px;
   height: 200px;
   margin-bottom: 60px;
+  text-decoration: none;
 }
 
 .image_item :hover {
   height: 201px;
   transition: all .3s;
-}
-
-.image_item a {
-  text-decoration: none;
 }
 
 .image_item img {
