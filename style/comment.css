@@ -1,0 +1,134 @@
+.center_display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#comment, #user {
+    display: block;
+}
+
+.container .top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+
+.top .likes_count {
+    top: 0;
+    left: 0;
+    border-radius: 0 0 10px 10px;
+    background: #ffadad;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+
+.likes_count small {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+form {
+    display: grid;
+    width: 100%;
+    height: 80px;
+    grid-template-columns: 5% 1fr 15%;
+}
+
+.form_info input {
+    border: none;
+    background: transparent;
+    width: 90%;
+    border-bottom: 1px solid #bababa;
+    font-size: 18px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.form_info input::placeholder {
+    color: #a1a1a1;
+}
+
+.top .heart_icon {
+    color: #ffadad;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.top button {
+    background-color: #6649b8;
+    height: 50%;
+    border: none;
+    outline: none;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+    align-self: center;
+}
+
+/* COMMENTS */
+.comments_container {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.comment_card {
+    width: 100%;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 10% auto;
+    margin: 0.5rem;
+}
+
+.comment_card .pic {
+    background-color: #6649b8;
+    border-radius: 50%;
+    height: 40%;
+    aspect-ratio: 1;
+    margin: 20%;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.comment_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.comment_info .nickname {
+    color: #979797;
+}
+
+.comment_info .comment {
+    margin: 5px 0;
+}
+
+.comment_info .comment_bottom {
+    display: flex;
+}
+
+.comment_bottom .heart_icon--comment {
+    font-size: 20px;
+    margin-right: 20px;
+    color: #dcdcdc;
+}
+
+.heart_icon--comment .fas.positive {
+    color: #ffadad;
+}
+
+.comment_bottom button {
+    border: none;
+    background: transparent;
+    color: #aaa;
+    text-transform: uppercase;
+    cursor: pointer;
+}

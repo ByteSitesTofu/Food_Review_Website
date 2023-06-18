@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="/style/footer.css">
   <link rel="stylesheet" href="/style/content-media.css">
   <link rel="stylesheet" href="/style/content.css">
+  <link rel="stylesheet" href="/style/comment.css">
 
 
   <!-- Fonts -->
@@ -43,7 +44,7 @@
       </div>
 
       <div class="logo_container">
-        <a href="index.html"><img src="/logo/Hotpot.png" alt="Some Logo"></a>
+        <a href="/index.html"><img src="/logo/Hotpot.png" alt="Some Logo"></a>
       </div>
 
       <div class="navigation_container">
@@ -55,12 +56,11 @@
         </div>
 
         <div class="btn">
-          <a href="./pandesal.html">
+          <a href="/breakfast/tocilog.html">
             <i class="fa-solid fa-left-long"></i>
             <span>Back</span>
           </a>
         </div>
-
       </div>
     </nav>
   </header>
@@ -68,15 +68,70 @@
 
   <!-- Main Body/content -->
   <main>
-    <div class="content_header">
-      <h1>Welcome to Recipes and Comment Section</h1>
-    </div>
-
     <div class="content_body">
-      <article>
+      <h2>Tuyo Sangkap at proseso na maari mong gawin sa iyong tahanan</h2>
+      <h5>Mga Sangkap:</h5>
+      <ul class="recipe_list">
+        <li>Tuyo (dried fish)</li>
+        <li>Mantika (mantika ng mais o mantika ng kahit anong klase)</li>
+        <li>Bawang (tadtarin)</li>
+        <li>Paminta (tadtarin)</li>
+        <li>Kahit anong pampalasa na gustong idagdag (halimbawa, siling labuyo)</li>
+      </ul>
 
-      </article>
+      <h5>Mga proseso:</h5>
+      <ol class="recipe_direction">
+        <li>
+          Maghanda ng isang kawali at painitin ito sa katamtamang apoy. Magdagdag ng mantika at hayaan itong maluto ng
+          kaunting minuto hanggang sa ito ay mag-init nang maayos.
+        </li>
+        <li>
+          Ilagay ang tuyo sa kawali ng mantika at prituhin ito nang pantay sa bawat panig. Siguraduhing ang apoy ay
+          hindi masyadong mataas upang hindi masunog ang isda. I-prito ang tuyo hanggang sa maging malutong at magkaroon
+          ng golden brown color.
+        </li>
+        <li>
+          Kapag malutong na ang tuyo, alisin ito mula sa kawali at patuyuin ng kaunti sa papel na pampatuyo o tissue
+          upang matanggal ang sobrang mantika.
+        </li>
+        <li>
+          Sa parehong kawali na may natirang mantika, igisa ang bawang hanggang sa maging light brown ang kulay nito.
+          Magdagdag ng paminta at iba pang mga pampalasa na gusto mong idagdag. Hayaan itong igisa ng kaunting minuto
+          para maglabas ng mas maraming lasa ang mga pampalasa.
+        </li>
+        <li>
+          Ibuhos ang gisa na bawang at paminta sa ibabaw ng mga pritong tuyo. Maari itong ihain kasama ng mainit na
+          kanin, kamatis, at bagoong.
+        </li>
+      </ol>
+      <h5>Comments:</h5>
     </div>
+
+    <div class="container center_display">
+      <div class="top">
+        <form>
+          <div class="heart_icon center_display">
+            <i class="far fa-heart"></i>
+          </div>
+          <div class="form_info center_display">
+            <input type="text" name="user" id="user" placeholder="Your Name">
+            <input type="text" name="comment" id="comment" placeholder="Comment">
+          </div>
+          <button type="submit" class="submit_btn">
+            Submit
+          </button>
+        </form>
+        <div class="likes_count">
+          <i class="far fa-heart"></i>
+          <small class="count">0</small>
+        </div>
+      </div>
+
+      <div class="comments_container center_display">
+
+      </div>
+    </div>
+    <script src="/main.js"></script>
   </main>
 
   <!-- Footer -->
@@ -110,8 +165,6 @@
         <i class="fa-brands fa-github"></i>
       </a>
     </p>
-
-
   </footer>
   <script src="/script.js"></script>
   <script src="/homescript.js"></script>

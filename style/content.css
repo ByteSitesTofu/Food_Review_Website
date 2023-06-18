@@ -31,3 +31,26 @@ article {
 article p {
   font-weight: 300;
 }
+
+.content_body {
+  padding-left: 10px;
+}
+
+.content_body h2 {
+  text-indent: 5px;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.recipe_list {
+  padding-left: 40px;
+}
+
+.recipe_direction {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.toppings li {
+  margin-left: 20px;
+}

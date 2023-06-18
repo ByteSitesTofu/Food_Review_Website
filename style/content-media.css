@@ -122,6 +122,14 @@
     font-size: 20px;
   }
 
+  main .comment_card {
+    width: 100%;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 15% auto;
+    margin: 0.5rem;
+  }
+
   footer {
     padding-bottom: 10px;
   }
