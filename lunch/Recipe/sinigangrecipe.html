@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Filipino Food Review</title>
+
+  <!-- Web Icon -->
+  <link rel="Icon" href="/logo/Hotpot.png">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/style/style.css">
+  <link rel="stylesheet" href="/style/darkmode.css">
+  <link rel="stylesheet" href="/style/footer.css">
+  <link rel="stylesheet" href="/style/content-media.css">
+  <link rel="stylesheet" href="/style/content.css">
+  <link rel="stylesheet" href="/style/comment.css">
+
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <script src="https://kit.fontawesome.com/65eecd64a8.js" crossorigin="anonymous"></script>
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body class="light">
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <input type="checkbox" id="toggle">
+      <div class="darkMode">
+        <label class="toggle" for="toggle">
+          <i class="bx bx-sun"></i>
+          <i class="bx bx-moon"></i>
+          <span class="ball"></span>
+        </label>
+      </div>
+
+      <div class="logo_container">
+        <a href="/index.html"><img src="/logo/Hotpot.png" alt="Some Logo"></a>
+      </div>
+
+      <div class="navigation_container">
+        <div class="btn">
+          <a href="/index.html">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+          </a>
+        </div>
+
+        <div class="btn">
+          <a href="/lunch/sinigang.html">
+            <i class="fa-solid fa-left-long"></i>
+            <span>Back</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- Main Body/content -->
+  <main>
+    <div class="content_body">
+      <h2>Sinigang Sangkap at proseso na maari mong gawin sa iyong tahanan</h2>
+      <h5>Mga Sangkap:</h5>
+      <ul class="recipe_list">
+        <li>1/2 kilo ng baboy (kasim o ribs), hiniwa ng malalaki</li>
+        <li>1 sibuyas, hiniwa ng maliliit</li>
+        <li>3-4 butil ng bawang, tadtarin</li>
+        <li>2 tasa ng sampalok pulp (pulp ng sampalok o sampalok mix)</li>
+        <li>1.5 litro ng tubig</li>
+        <li>2 talong, hiniwa ng pahaba</li>
+        <li>1 labanos, hiniwa ng pahaba</li>
+        <li>2 kangkong (tangkay at dahon), hiwain ng malalaki</li>
+        <li>2 siling pansigang, tadtarin (opsyonal, depende sa level ng anghang na gusto)</li>
+        <li>Asin at paminta, ayon sa panlasa</li>
+        <li>Mantika (pampalapot ng sabaw, kung kinakailangan)</li>
+      </ul>
+
+      <h5>Mga proseso:</h5>
+      <ol class="recipe_direction">
+        <li>
+          Sa isang malaking kawali, igisa ang sibuyas at bawang gamit ang mantika hanggang sa maging golden brown ang
+          kulay nito at mabango ang amoy.
+        </li>
+        <li>
+          Ilagay ang hiniwang baboy sa kawali at lutuin ito hanggang sa maging light brown ang kulay nito.
+        </li>
+        <li>
+          Ilagay ang sampalok pulp at tubig sa kawali. Hayaan itong kumulo at pakuluin ng mga 10-15 minuto hanggang sa
+          lumambot ang baboy.
+        </li>
+        <li>
+          Kapag malambot na ang baboy, idagdag ang talong at labanos. Hayaan itong maluto ng mga 5-7 minuto o hanggang
+          sa malambot na ang gulay.
+        </li>
+        <li>
+          Ilagay ang kangkong at siling pansigang. Haluin ito ng kaunti at lutuin ng mga 2-3 minuto hanggang sa maluto
+          ang kangkong at lumambot ang dahon nito.
+        </li>
+        <li>
+          I-adjust ang lasa sa pamamagitan ng pagdagdag ng asin at paminta ayon sa iyong panlasa. Maari kang magdagdag
+          ng siling pansigang para sa dagdag na anghang.
+        </li>
+        <li>
+          Kapag malasa at malambot na ang karne at gulay, patayin ang apoy at ihain ang sinigang kasama ng mainit na
+          kanin.
+        </li>
+      </ol>
+      <h5>Comments:</h5>
+    </div>
+
+    <div class="container center_display">
+      <div class="top">
+        <form>
+          <div class="heart_icon center_display">
+            <i class="far fa-heart"></i>
+          </div>
+          <div class="form_info center_display">
+            <input type="text" name="user" id="user" placeholder="Your Name">
+            <input type="text" name="comment" id="comment" placeholder="Comment">
+          </div>
+          <button type="submit" class="submit_btn">
+            Submit
+          </button>
+        </form>
+        <div class="likes_count">
+          <i class="far fa-heart"></i>
+          <small class="count">0</small>
+        </div>
+      </div>
+
+      <div class="comments_container center_display">
+
+      </div>
+    </div>
+    <script src="/main.js"></script>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p id="social" class="social_header">Social</p>
+    <div class="social_container">
+
+      <div class="facebook social">
+        <a href="#">
+          <i class='bx bxl-facebook-circle'></i>
+          <span>Facebook</span>
+        </a>
+      </div>
+
+      <div class="instagram social">
+        <a href="#">
+          <i class='bx bxl-instagram-alt'></i>
+          <span>Instagram</span>
+        </a>
+      </div>
+
+      <div class="linkedin social">
+        <a href="#">
+          <i class='bx bxl-linkedin-square'></i>
+          <span>Linkedin</span>
+        </a>
+      </div>
+    </div>
+    <p class="copyright">Copyright © 2023
+      <a class="copyright_link" href="https://github.com/TofuWithSoy"><span>TofuWithSoy</span>
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </p>
+  </footer>
+  <script src="/script.js"></script>
+  <script src="/homescript.js"></script>
+</body>
+
+</html>

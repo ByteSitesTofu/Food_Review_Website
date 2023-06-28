@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Filipino Food Review</title>
+
+  <!-- Web Icon -->
+  <link rel="Icon" href="/logo/Hotpot.png">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/style/style.css">
+  <link rel="stylesheet" href="/style/darkmode.css">
+  <link rel="stylesheet" href="/style/footer.css">
+  <link rel="stylesheet" href="/style/content-media.css">
+  <link rel="stylesheet" href="/style/content.css">
+  <link rel="stylesheet" href="/style/comment.css">
+
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <script src="https://kit.fontawesome.com/65eecd64a8.js" crossorigin="anonymous"></script>
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body class="light">
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <input type="checkbox" id="toggle">
+      <div class="darkMode">
+        <label class="toggle" for="toggle">
+          <i class="bx bx-sun"></i>
+          <i class="bx bx-moon"></i>
+          <span class="ball"></span>
+        </label>
+      </div>
+
+      <div class="logo_container">
+        <a href="/index.html"><img src="/logo/Hotpot.png" alt="Some Logo"></a>
+      </div>
+
+      <div class="navigation_container">
+        <div class="btn">
+          <a href="/index.html">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+          </a>
+        </div>
+
+        <div class="btn">
+          <a href="/lunch/sisig.html">
+            <i class="fa-solid fa-left-long"></i>
+            <span>Back</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- Main Body/content -->
+  <main>
+    <div class="content_body">
+      <h2>Sisig Sangkap at proseso na maari mong gawin sa iyong tahanan</h2>
+      <h5>Mga Sangkap:</h5>
+      <ul class="recipe_list">
+        <li>500 grams ng baboy (mukha, tenga, o iba pang bahagi), malinis at hiniwa ng maliliit</li>
+        <li>1 sibuyas, hiniwa ng maliliit</li>
+        <li>3-4 butil ng bawang, tadtarin</li>
+        <li>2 sili (pampalasa at pampalasa)</li>
+        <li>2 kutsarang toyo</li>
+        <li>2 kutsarang suka</li>
+        <li>Asin at paminta, ayon sa panlasa</li>
+        <li>Mantika (pampalapot, kung kinakailangan)</li>
+        <li>Calamansi at bawang (para sa sawsawan)</li>
+      </ul>
+
+      <h5>Mga proseso:</h5>
+      <ol class="recipe_direction">
+        <li>
+          Maghanda ng isang kawali at painitin ito sa katamtamang apoy. Magdagdag ng mantika at igisa ang sibuyas at
+          bawang hanggang sa maging golden brown ang kulay nito at mabango ang amoy.
+        </li>
+        <li>
+          Ilagay ang hiniwang baboy sa kawali at lutuin ito hanggang sa maging light brown at malutong ang karne.
+        </li>
+        <li>
+          Magdagdag ng toyo at suka sa kawali. Haluin ito ng maayos upang malunod ang karne sa pampalasa.
+        </li>
+        <li>
+          Kapag malutong na ang baboy, idagdag ang mga tadtad na sili. Haluin ito ng ilang minuto upang mag-amoy ang mga
+          pampalasa sa karne.
+        </li>
+        <li>
+          I-adjust ang lasa sa pamamagitan ng pagdagdag ng asin at paminta ayon sa iyong panlasa. Maari kang magdagdag
+          ng iba pang pampalasa tulad ng siling labuyo o hot sauce kung gusto mong dagdagan ang anghang.
+        </li>
+        <li>
+          Patuloy na lutuin ang baboy hanggang sa maluto ito nang husto at magkaroon ng malasang balat.
+        </li>
+        <li>
+          Kapag malasa na ang sisig at ang balat ay malutong, patayin ang apoy at ihain ito kasama ng mainit na kanin at
+          sawsawan ng calamansi at bawang.
+        </li>
+      </ol>
+      <h5>Comments:</h5>
+    </div>
+
+    <div class="container center_display">
+      <div class="top">
+        <form>
+          <div class="heart_icon center_display">
+            <i class="far fa-heart"></i>
+          </div>
+          <div class="form_info center_display">
+            <input type="text" name="user" id="user" placeholder="Your Name">
+            <input type="text" name="comment" id="comment" placeholder="Comment">
+          </div>
+          <button type="submit" class="submit_btn">
+            Submit
+          </button>
+        </form>
+        <div class="likes_count">
+          <i class="far fa-heart"></i>
+          <small class="count">0</small>
+        </div>
+      </div>
+
+      <div class="comments_container center_display">
+
+      </div>
+    </div>
+    <script src="/main.js"></script>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p id="social" class="social_header">Social</p>
+    <div class="social_container">
+
+      <div class="facebook social">
+        <a href="#">
+          <i class='bx bxl-facebook-circle'></i>
+          <span>Facebook</span>
+        </a>
+      </div>
+
+      <div class="instagram social">
+        <a href="#">
+          <i class='bx bxl-instagram-alt'></i>
+          <span>Instagram</span>
+        </a>
+      </div>
+
+      <div class="linkedin social">
+        <a href="#">
+          <i class='bx bxl-linkedin-square'></i>
+          <span>Linkedin</span>
+        </a>
+      </div>
+    </div>
+    <p class="copyright">Copyright © 2023
+      <a class="copyright_link" href="https://github.com/TofuWithSoy"><span>TofuWithSoy</span>
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </p>
+  </footer>
+  <script src="/script.js"></script>
+  <script src="/homescript.js"></script>
+</body>
+
+</html>

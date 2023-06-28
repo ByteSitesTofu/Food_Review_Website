@@ -104,7 +104,7 @@
   .btn a {
     flex-direction: column;
     justify-content: center;
-    padding: 0px 5px 0 5px;
+    padding: 0px 10px 0 10px;
   }
 
   .btn span {
@@ -112,8 +112,7 @@
   }
 
   .btn i {
-    padding: 0px;
-    font-size: 15px;
+    display: none;
   }
 
   main {

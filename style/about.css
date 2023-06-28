@@ -1,0 +1,82 @@
+main {
+  grid-area: main;
+  min-height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.about_us {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 50px;
+  gap: 50px;
+}
+
+.about_pic {
+  display: grid;
+  align-items: center;
+}
+
+.pic {
+  aspect-ratio: 1;
+  border-radius: 61% 39% 68% 32% / 39% 52% 48% 61%;
+  background-image: url(/images/Mypicture.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.about_text {
+  height: 100%;
+  text-align: center;
+
+}
+
+.contact_us {
+  padding: 50px;
+  background-color: #f2f2f2;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  all: unset;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  all: unset;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.error {
+  all: unset;
+  background-color: orangered;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
